@@ -382,7 +382,7 @@ git push origin feature/nueva-funcionalidad
 
 <div align="center">
 
-## Isai Reyes — React Developer
+## Isai Reyes — JavaFx Developer
 
 Desarrollador apasionado por aplicaciones frontend modernas, sistemas inmobiliarios y experiencias UI dinámicas 🚀
 
