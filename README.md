@@ -1,140 +1,438 @@
-# Mandy Rental Management System - Mandy-RMS
+<div align="center">
 
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/3105/3105807.png" />
 
-Mandy RMS is a Rental management system that is user independent and has 
-its own protocols and functions depending with the user input. 
+# 🏢 Mandy Rental Management System
 
+### Sistema de administración de rentas desarrollado con JavaFX 🚀
 
-#### Interface
+<p align="center">
+  <b>Mandy RMS</b> es un sistema de gestión de rentas desarrollado con JavaFX y MySQL, diseñado para automatizar procesos administrativos, autenticación de usuarios y operaciones de alquiler mediante una interfaz moderna y dinámica.
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/RentalManagement-DesktopSystem-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/JavaFX-GUIApplication-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/OpenSource-JavaDesktop-success?style=for-the-badge">
+</p>
 
-- JFoenix.
-- FXML.
+<p align="center">
+  <a href="#-acerca-del-proyecto">Acerca</a> •
+  <a href="#-módulos-del-sistema">Módulos</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-vista-previa">Vista previa</a>
+</p>
 
+</div>
 
-#### Database
+---
 
+# 🌌 Acerca del proyecto
 
-- MySQL using Java Database Connector - JDBC.
+**Mandy Rental Management System** es una aplicación de escritorio desarrollada con JavaFX que permite administrar procesos de renta y operaciones administrativas mediante un sistema dinámico e independiente basado en roles de usuario.
 
+El sistema incorpora autenticación segura, interfaz moderna y persistencia de datos utilizando MySQL y JDBC.
 
-#### System
+El sistema fue diseñado para:
 
+- 🏢 Gestionar rentas
+- 👥 Administrar usuarios
+- 🔐 Gestionar autenticación
+- 📊 Supervisar operaciones
+- 💳 Administrar pagos
+- 📋 Organizar registros
+- ⚡ Automatizar procesos
+- 🌐 Centralizar información
 
-- JavaFX.
-- Java.
+---
 
-#### Hashing
+# ✨ Características
 
-- JBcrypt
+## 🏢 Gestión administrativa
 
-## Getting Started
+- 📋 Administración de registros
+- 👥 Gestión de usuarios
+- 📊 Supervisión de operaciones
+- ⚡ Automatización de tareas
+- 🔐 Gestión de accesos
 
+---
 
-These instructions will get you a copy of the project up and running on 
-your local machine for development and testing purposes.
+## 🔐 Sistema de autenticación
 
+- 🔑 Inicio de sesión seguro
+- 🛡️ Hashing de contraseñas
+- 👤 Roles de usuario
+- ⚡ Validaciones dinámicas
+- 📄 Gestión de sesiones
 
-The application has been commented for easy follow through and 
-understanding.
+---
 
+## 🖥️ Interfaz moderna
 
-### Prerequisites
+- 🎨 Diseño moderno con JFoenix
+- ⚡ Interfaz JavaFX dinámica
+- 📋 Navegación intuitiva
+- 🌙 Componentes visuales elegantes
+- 📱 Arquitectura basada en FXML
 
+---
 
-- Prior knowledge of MySQL and database concepts.
-- Prior knowledge of Java, JavaFX and FXML.
+## 🗄️ Gestión de base de datos
 
+- 💾 Persistencia con MySQL
+- 🔗 Conexión mediante JDBC
+- 📊 Gestión relacional
+- ⚡ Consultas optimizadas
+- 📋 Administración centralizada
 
-The following are libraries that are needed:
+---
 
+# 👨‍💼 Módulos del sistema
 
-1. JavaFX- Ensure that the IDE used already supports JavaFX.
+## 👤 Authentication Module
 
+Este módulo administra la autenticación y seguridad del sistema.
 
-- This application has been developed using Netbeans so it will be more 
-compatible to a Netbeans Development Environment.
+### Funcionalidades:
 
+- 🔐 Inicio de sesión
+- 🛡️ Hashing con BCrypt
+- 👥 Gestión de usuarios
+- 📄 Validación de credenciales
+- ⚡ Control de accesos
 
-2. MySQL JDBC connector jar.
+---
 
+## 🏢 Rental Module
 
-- Follow this [tutorial](https://www.tutorialspoint.com/jdbc/jdbc_pdf_version.htm) that will aid in understanding JDBC.
+Este módulo administra operaciones de renta.
 
+### Funcionalidades:
 
-Various database variables will need to be changed in order to suit your 
-Development Environment.
+- 📋 Gestión de registros
+- 💳 Administración de pagos
+- 📊 Seguimiento de operaciones
+- ⚡ Gestión dinámica
+- 📄 Historial administrativo
 
+---
 
-Download the connector here for MySQL below:
+## 🖥️ Interface Module
 
+Este módulo administra la interfaz gráfica.
 
-[Go to site](https://dev.mysql.com/downloads/connector/j/)
+### Funcionalidades:
 
+- 🎨 Diseño moderno
+- ⚡ Navegación dinámica
+- 📱 Interfaces responsivas
+- 📋 Gestión visual
+- 🌙 Componentes personalizados
 
-Once downloaded, add it to your libraries under your project. This is 
-dependent on the IDE being used.
+---
 
+## 🛠️ Database Module
 
-3. JFOenix Jar - Both versions Java 8 or Java 9.
+Este módulo administra la persistencia de datos.
 
+### Funcionalidades:
 
-[Go to site](https://github.com/jfoenixadmin/JFoenix)
+- 🔗 Conexión JDBC
+- 💾 Gestión MySQL
+- 📊 Consultas SQL
+- 📋 Administración relacional
+- ⚡ Persistencia de información
 
+---
 
-Click version 8 or 9 depending on your java version 
-and it will download immediately.
+# 🛠️ Tecnologías utilizadas
 
+## 🎨 Interfaz gráfica
 
-Once the respective jars have been dowloaded, add them to your libraries 
-depending on the IDE you are using.
+<p>
+  <img src="https://skillicons.dev/icons?i=java" />
+</p>
 
+- JavaFX
+- JFoenix
+- FXML
+- Diseño GUI moderno
 
-### Installing
+---
 
+## ⚙️ Backend
 
-A step by step series of examples that tell you have to setup and get a 
-development environment running.
+<p>
+  <img src="https://skillicons.dev/icons?i=java" />
+</p>
 
+- Java
+- JDBC
+- Arquitectura desktop
+- Gestión de sesiones
 
-Prior knowledge of git, installation and setup is assumed.
+---
 
+## 🗄️ Base de datos
 
-1. Clone the application and copy the link. Open the terminal and input: 
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql" />
+</p>
 
+- MySQL
+- Relaciones SQL
+- Persistencia de datos
+- Gestión administrativa
 
+---
+
+## 🔐 Seguridad
+
+- JBCrypt
+- Hashing de contraseñas
+- Validación de usuarios
+- Protección de accesos
+
+---
+
+## 🧰 Herramientas
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode" />
+</p>
+
+- Git
+- GitHub
+- NetBeans IDE
+- Visual Studio Code
+
+---
+
+# 📂 Estructura del proyecto
+
+```bash
+Mandy-RMS/
+│
+├── src/                      # Código fuente Java
+├── controllers/              # Controladores JavaFX
+├── views/                    # Interfaces FXML
+├── models/                   # Modelos de datos
+├── database/                 # Configuración SQL
+├── assets/                   # Recursos gráficos
+├── libraries/                # Librerías externas
+├── README.md
+└── LICENSE
 ```
+
+---
+
+# ⚡ Instalación
+
+## 📋 Requisitos
+
+- Java JDK 8+
+- JavaFX
+- NetBeans IDE
+- MySQL
+- JDBC Connector
+
+---
+
+# 🚀 Configuración del proyecto
+
+## 1️⃣ Clonar repositorio
+
+```bash
 git clone https://github.com/Maxwell-Icharia/Rental-Management-System/
 ```
 
+---
 
-2. While using Netbeans IDE, click open project and work around into the 
-file that has been cloned.
+## 2️⃣ Abrir proyecto
 
+Importar proyecto en:
 
-## Built With
+```bash
+NetBeans IDE
+```
 
+---
 
-* [JavaFX](https://docs.oracle.com/javafx/2/overview/jfxpub-overview.htm) - GUI Builder
-* [JFoenix](https://github.com/jfoenixadmin/JFoenix) - Interface Design
-* [MySQL](https://www.mysql.com/) - Database
-* JBCrypt - Hashing API
+## 3️⃣ Configurar MySQL
 
+Crear base de datos:
 
-## Authors
+```bash
+mandy_rms
+```
 
+---
 
-- Wendy Karume - [Github](https://github.com/wendykarume)
-- Maxwell Icharia - [Github](https://github.com/Maxwell-Icharia)
+## 4️⃣ Agregar librerías
 
+Agregar:
 
-See also the list of [contributors](https://github.com/Maxwell-Icharia/Rental-Management-System/graphs/contributors) who participated in this project.
+- JavaFX SDK
+- JDBC Connector
+- JFoenix JAR
+- BCrypt Library
 
+---
 
-## License
+## 5️⃣ Ejecutar aplicación
 
+Ejecutar archivo principal:
 
-This project is licensed under the GNU-GPL Version 3 - see the 
-[LICENSE.md](LICENSE) file for details
+```bash
+Main.java
+```
 
+---
 
+# 📊 Funcionalidades principales
+
+## 🏢 Gestión administrativa
+
+- Administración de rentas
+- Gestión de usuarios
+- Supervisión operativa
+- Organización de registros
+
+---
+
+## 🔐 Seguridad del sistema
+
+- Autenticación segura
+- Hashing BCrypt
+- Gestión de credenciales
+- Protección de accesos
+
+---
+
+## 🖥️ Interfaz moderna
+
+- JavaFX dinámico
+- Diseño elegante
+- Navegación intuitiva
+- Componentes personalizados
+
+---
+
+# 📸 Vista previa
+
+## 🖥️ Interfaces del sistema
+
+<div align="center">
+
+### 🔐 Inicio de sesión
+![Login](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1200&auto=format&fit=crop)
+
+### 📊 Dashboard administrativo
+![Dashboard](https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop)
+
+### 👥 Gestión de usuarios
+![Users](https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop)
+
+### 🏢 Gestión de rentas
+![Rental](https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200&auto=format&fit=crop)
+
+### 🗄️ Gestión de base de datos
+![Database](https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=1200&auto=format&fit=crop)
+
+### ⚙️ Configuración del sistema
+![Settings](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop)
+
+</div>
+
+---
+
+# 🧠 Objetivos del proyecto
+
+## 🎯 Aprendizaje y administración
+
+- Desarrollo desktop con JavaFX
+- Arquitectura MVC
+- Gestión de bases de datos
+- Interfaces modernas
+- Seguridad informática
+- Automatización administrativa
+- Programación orientada a objetos
+
+---
+
+# 🚧 Roadmap
+
+## 🔮 Próximas mejoras
+
+- ☁️ Integración cloud
+- 📱 Aplicación móvil
+- 🌐 API REST moderna
+- 📊 Dashboard avanzado
+- 🔔 Notificaciones automáticas
+- 🤖 Reportes inteligentes
+- 💳 Gestión financiera avanzada
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Cómo contribuir
+
+1. Fork del proyecto
+
+```bash
+git checkout -b feature/nueva-funcionalidad
+```
+
+2. Commit
+
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
+
+3. Push
+
+```bash
+git push origin feature/nueva-funcionalidad
+```
+
+4. Pull Request 🚀
+
+---
+
+# 👨‍💻 Desarrolladores
+
+<div align="center">
+
+## Wendy Karume & Maxwell Icharia
+
+Desarrolladores apasionados por aplicaciones Java, sistemas administrativos y arquitectura desktop moderna 🚀
+
+</div>
+
+---
+
+# 🌟 Apoya el proyecto
+
+⭐ Dale una estrella  
+🍴 Haz fork  
+📢 Comparte el proyecto
+
+---
+
+# 📜 Licencia
+
+Proyecto open source bajo licencia GNU GPL v3 orientado al aprendizaje y administración de sistemas de renta.
+
+---
+
+<div align="center">
+
+### 🏢 Mandy Rental Management System — administración moderna de rentas con JavaFX 🚀
+
+</div>
