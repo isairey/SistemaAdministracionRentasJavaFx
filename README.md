@@ -214,7 +214,7 @@ Este módulo administra la persistencia de datos.
 # 📂 Estructura del proyecto
 
 ```bash
-Mandy-RMS/
+SistemaAdministracionRentasJavaFx/
 │
 ├── src/                      # Código fuente Java
 ├── controllers/              # Controladores JavaFX
@@ -246,7 +246,7 @@ Mandy-RMS/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/Maxwell-Icharia/Rental-Management-System/
+git clone https://github.com/isairey/SistemaAdministracionRentasJavaFx
 ```
 
 ---
@@ -319,33 +319,6 @@ Main.java
 - Navegación intuitiva
 - Componentes personalizados
 
----
-
-# 📸 Vista previa
-
-## 🖥️ Interfaces del sistema
-
-<div align="center">
-
-### 🔐 Inicio de sesión
-![Login](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1200&auto=format&fit=crop)
-
-### 📊 Dashboard administrativo
-![Dashboard](https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop)
-
-### 👥 Gestión de usuarios
-![Users](https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop)
-
-### 🏢 Gestión de rentas
-![Rental](https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200&auto=format&fit=crop)
-
-### 🗄️ Gestión de base de datos
-![Database](https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=1200&auto=format&fit=crop)
-
-### ⚙️ Configuración del sistema
-![Settings](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop)
-
-</div>
 
 ---
 
@@ -405,16 +378,15 @@ git push origin feature/nueva-funcionalidad
 
 ---
 
-# 👨‍💻 Desarrolladores
+# 👨‍💻 Desarrollador
 
 <div align="center">
 
-## Wendy Karume & Maxwell Icharia
+## Isai Reyes — React Developer
 
-Desarrolladores apasionados por aplicaciones Java, sistemas administrativos y arquitectura desktop moderna 🚀
+Desarrollador apasionado por aplicaciones frontend modernas, sistemas inmobiliarios y experiencias UI dinámicas 🚀
 
 </div>
-
 ---
 
 # 🌟 Apoya el proyecto
